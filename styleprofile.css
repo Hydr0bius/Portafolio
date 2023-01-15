@@ -4,11 +4,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 /* nav------------------------------------------- */
 header{
     width: 100%;
-    height: 10vh;
+    height: 7vh;
     background: #3d3d3d;
     display: flex;
     justify-content: space-between;
@@ -16,23 +17,32 @@ header{
     box-sizing: border-box;
     position: sticky;
     top: 0;
+    opacity: 0.9;
 }
 header figure img{
-    max-width: 85px;
-    height: 85px;
+    max-width: 75px;
+    height: 75px;
     border-radius: 50%;
     padding-left: 10px;
 }
-header nav a i{
+header nav a{
     color: white;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
+    padding: 15px;
+}
+header nav a i{
+    padding-right: 5px;
+}
+header nav a:hover{
+    color: rgb(0, 238, 218);
+    border-bottom: 2px solid rgb(0, 238, 218);
 }
 /* Primera seccion ---------------------------------------- */
 .profile{
     width: 100%;
-    min-height: 100vh;
+    min-height: 93vh;
     display: flex;
     background: linear-gradient(to right, rgb(19, 134, 211), rgb(0, 60, 255));
 
@@ -60,7 +70,29 @@ header nav a i{
 }
 /* footer------------------------------------------------------------------ */
 footer{
+    color: white;
     width: 100%;
-    min-height: 20vh;
-    background: rgb(46, 154, 243);
+    min-height: 9vh;
+    background: rgb(0, 0, 0);
+}
+footer div{
+    font-size: 20px;
+    display: flex;
+    justify-content:center;
+}
+footer hr{
+    width: 40%;
+    height: 4px;
+    background: white;
+}
+footer div a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    padding: 0 25px 0 25px;
+}
+footer div a:hover, hr:hover{
+    border-bottom: 2px solid rgb(0, 238, 218);
+    color: rgb(0, 238, 218);
+
 }
