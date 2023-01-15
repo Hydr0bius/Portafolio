@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Poppins:wght@400;600&family=Rowdies&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* nav------------------------------------------- */
+header{
+    width: 100%;
+    height: 10vh;
+    background: #3d3d3d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+}
+header figure img{
+    max-width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    padding-left: 10px;
+}
+header nav a i{
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+/* Primera seccion ---------------------------------------- */
+.profile{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background: linear-gradient(to right, rgb(19, 134, 211), rgb(0, 60, 255));
+
+}
+.profile div{
+    width: 50%;
+}
+.profile div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile div img{
+    max-width: 60%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+/* segunda seccion ----------------------------------------- */
+.content{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to left, rgb(19, 134, 211), rgb(0, 60, 255));
+}
+/* footer------------------------------------------------------------------ */
+footer{
+    width: 100%;
+    min-height: 20vh;
+    background: rgb(46, 154, 243);
+}
