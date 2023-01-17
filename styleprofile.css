@@ -64,6 +64,7 @@ header nav a:hover{
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    box-shadow: 8px 15px 50px black;
 }
 .profile div:nth-child(2) h1, h2{
     margin: 50px 0 0 200px;
