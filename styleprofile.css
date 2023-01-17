@@ -62,6 +62,23 @@ header nav a:hover{
     align-items: center;
     border-radius: 50%;
 }
+.profile div:nth-child(2) h1, h2{
+    margin: 50px 0 0 200px;
+    font-size: 35px;
+    color: wheat;
+}
+.profile div:nth-child(2) h2{
+    margin: 5% 0 0 0;
+}
+.profile div:nth-child(2) p, ul{
+    margin-top: 3%;
+    max-width: 80%;
+    font-size: 25px;
+    font-weight: bold;
+    color: transparent;
+    background: linear-gradient(to right,#A1FFCE, #FAFFD1);
+    -webkit-background-clip: text;
+}
 /* segunda seccion ----------------------------------------- */
 .content{
     width: 100%;
