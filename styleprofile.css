@@ -160,3 +160,44 @@ footer div a:hover, hr:hover{
     color: rgb(0, 238, 218);
 
 }
+
+/* Responsive------------------- */
+@media (max-width: 1000px){
+    header figure img{
+        width: 50px;
+        max-height: 50px;
+    }
+    .profile div img{
+        height: 50%;
+    }
+    .profile div:nth-child(2) h1, h2{
+        margin: 50px 0 0 50px;
+        font-size: 25px;
+    }
+    .profile div:nth-child(2) p, ul{
+        font-size: 17px;
+    }
+    .contenido{
+        height: 130vh;
+    }
+}
+/* ---------------------------------- */
+@media (max-width: 414px){
+    .profile div img{
+        height: 35%;
+    }
+    .profile div:nth-child(2) h1, h2{
+        margin: 50px 0 0 0;
+        font-size: 17px;
+    }
+    .profile div:nth-child(2) p, ul{
+        font-size: 15px;
+    }
+    .contenido{
+        height: 110vh;
+    }
+    .cartel{
+        margin: 10px;
+        width: 150px;
+    }
+}
